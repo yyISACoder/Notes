@@ -1,0 +1,3 @@
+linux 开启端口 /sbin/iptables -I INPUT -p http --dport 3000 -j ACCEPT
+
+查看linux端口状态 netstat -anp
